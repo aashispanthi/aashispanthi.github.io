@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashis Panthi - IT Professional</title>
+    <script src="https://kit.fontawesome.com/41a76cf97a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Styles will be added here -->
+    <style>
+        /* Navbar Styles */
+        .navbar {
+            background-color: #2c3e50; /* A dark shade of blue */
+            overflow: hidden;
+            position: fixed; /* Fixed at the top */
+            top: 0;
+            width: 100%;
+            z-index: 10; /* Above other items */
+            display: flex;
+            justify-content: center; /* Center the links */
+            align-items: center;
+            padding: 0.5rem 0; /* A little padding for aesthetic */
+        }
+    
+        .navbar a {
+            color: white; /* White text */
+            padding: 0.5rem 1rem; /* Spacing around the text */
+            text-decoration: none; /* No underlines on the links */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+    
+        .navbar a:hover, .navbar a.active {
+            background-color: #34495e; /* A lighter shade for hover/active state */
+        }
+    
+        /* Responsive Navbar */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column; /* Stack the links vertically on small screens */
+            }
+            .navbar a {
+                text-align: center; /* Center align the links */
+                width: 100%; /* Full width */
+                padding: 0.5rem; /* Adjust padding */
+            }
+        }
+    
+        /* General Section Styles */
+        section {
+            padding: 10px; /* Adjusted padding for a tighter layout */
+            margin-top: 30px; /* Adjusted margin to bring sections closer, accounting for fixed navbar */
+        }
+    
+        /* Section Title Styles */
+        .section-title {
+            display: flex;
+            align-items: center; /* Aligns the icon and text vertically */
+            justify-content: center; /* Centers the title in the section */
+            font-size: 24px;
+            margin-bottom: 20px; /* Adds space below the title */
+        }
+    
+        .section-title i {
+            margin-right: 10px; /* Adds space between the icon and the text */
+        }
+    
+        /* Experience, Education, Skills, etc., Item Styles */
+        .experience-item, .education-details, .skills-container > div, .project-item, .certifications-list li {
+            padding: 15px; /* Consistent padding for content */
+            background: #f4f4f4; /* Light background for separation */
+            margin-bottom: 20px; /* Space between items */
+            border-radius: 8px; /* Rounded corners */
+        }
+    
+        .experience-item h3, .project-item h3, .education-details h3, .skills-container h3, .certifications-list li {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+    
+        /* List Styles */
+        ul {
+            list-style-type: none; /* Remove default list bullets */
+            padding-left: 20px; /* Indent list items */
+        }
+    
+        ul li {
+            margin-bottom: 8px; /* Space between list items */
+        }
+    
+        /* Certifications Links and Icons */
+        .certifications-list a, .project-item a {
+            color: #3498db; /* Link color */
+            text-decoration: underline; /* Underline to indicate links */
+            transition: color 0.3s; /* Smooth color transition on hover */
+        }
+    
+        .certifications-list a:hover, .project-item a:hover {
+            color: #2c3e50; /* Link hover color */
+            text-decoration: none; /* Remove underline on hover for cleaner look */
+        }
+    
+        .certifications-list i, .project-item i, .skills-container i {
+            margin-right: 8px; /* Space between icon and text */
+        }
+    
+        /* Skills Section Specifics */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid layout for skills */
+            gap: 20px;
+        }
+    
+        /* Adjustments for smaller screens */
+        @media (max-width: 768px) {
+            section {
+                margin-top: 50px; /* Reduced top margin for sections on smaller screens */
+            }
+        }
+    </style>
+    
+
+</head>
+<body>
+    <div class="navbar">
+        <!-- Navbar links will be added here -->
+<div class="navbar">
+    <a href="#about" class="active"><i class="fas fa-user"></i> About</a>
+    <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+    <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+    <a href="#skills"><i class="fas fa-tools"></i> Skills</a>
+    <a href="#certifications"><i class="fas fa-award"></i> Certifications & Awards</a>
+    <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+</div>
+    </div>
+
+    <section id="about">
+        <!-- About section content will go here -->
+<section id="about" style="padding-top: 60px; background: #f8f8f8;">
+    <div style="max-width: 900px; margin: auto; padding: 20px; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 300px; max-width: 400px; margin: 20px;">
+            <img src="aashis-panthi-profile.png" alt="Aashis Panthi" style="width: 100%; height: auto; border-radius: 50%;">
+        </div>
+        <div style="flex: 2; min-width: 300px; margin: 20px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 20px; border-radius: 8px;">
+            <h1 style="color: #2c3e50; margin-bottom: 0.5em;">Aashis Panthi</h1>
+            <p style="line-height: 1.6; color: #333; margin-bottom: 1em;">
+                Dedicated IT professional set to graduate with a diploma in Computer Systems Technician from Seneca Polytechnic, underscored by a consistent record of academic excellence, including four consecutive terms on the President's Honour List and a perfect 4.0 CGPA. With a strong foundation in system administration, operating systems, networking, and cloud computing, my experience as an IT Technical Support and Hy-flex Ambassador has significantly sharpened my technical support, troubleshooting, and user engagement skills. My hands-on experience, coupled with a commitment to continuous learning and a natural ability to collaborate, positions me as a dynamic candidate eager to innovate and implement effective technological solutions, enhancing operational efficiency in diverse IT environments.
+            </p>
+            <div style="margin-bottom: 1em;">
+                <p><strong>Contact Information:</strong></p>
+                <p style="margin: 5px 0;"><i class="fas fa-phone"></i> (647) 870-9843</p>
+                <p style="margin: 5px 0;"><i class="fas fa-envelope"></i> <a href="mailto:aashispanthiap@gmail.com" style="color: #0179e4; text-decoration: none;">aashispanthiap@gmail.com</a></p>
+                <p style="margin: 5px 0;"><i class="fab fa-linkedin" style="color: #0e76a8;"></i> <a href="https://www.linkedin.com/in/AashisPanthi" target="_blank" style="color: #0179e4; text-decoration: none;">LinkedIn: AashisPanthi</a></p>
+            </div>
+        </div>        
+    </div>
+</section>
+
+    </section>
+
+    <!-- Experience Section -->
+<section id="experience" style="background: #fff; padding: 40px;">
+    <div class="section-title">
+        <i class="fas fa-briefcase"></i>
+        <h2>Experience</h2>
+    </div>
+    
+    <!-- ITS Student Lab Monitor & Hyflex Ambassador -->
+    <div class="experience-item">
+        <h3>ITS Student Lab Monitor & Hyflex Ambassador</h3>
+        <!-- Placeholder for Seneca Polytechnic Logo -->
+        <p>Seneca Polytechnic, Newnham Campus • Toronto, Ontario, Canada | 01/2023 – Present</p>
+        <ul>
+            <li>Worked closely with the ITS technical team to resolve technological issues.</li>
+            <li>Helped professors with IT-related issues.</li>
+            <li>Installed and upgraded computer workstations throughout campus.</li>
+            <li>Re-imaged machines that needed updating or were facing issues.</li>
+            <li>Troubleshot and resolved classroom computers and Hybrid-Flexible technology.</li>
+        </ul>
+    </div>
+    
+    <!-- Lab Assistant -->
+    <div class="experience-item">
+        <h3>Lab Assistant</h3>
+        <!-- Placeholder for Seneca Polytechnic Logo -->
+        <p>Seneca Polytechnic, Newnham Campus • Toronto, Ontario, Canada | 09/2023 – 12/2023</p>
+        <ul>
+            <li>Assist in setting up, configuring, and troubleshooting the computer networking lab equipment, such as routers, switches, firewalls, servers, etc.</li>
+            <li>Perform regular tests and checks to ensure the optimal performance and security of the network.</li>
+            <li>Provide technical support and guidance to students and instructors who use the lab.</li>
+            <li>Collaborated with instructors to maintain a secure and efficient learning environment.</li>
+        </ul>
+    </div>
+    
+    <!-- Help Desk Support Intern -->
+    <div class="experience-item">
+        <h3>Help Desk Support Intern</h3>
+        <!-- Placeholder for WorldLink Communications Logo -->
+        <p>WorldLink Communications • Kathmandu, Bagmati, Nepal | 09/2021 - 04/2022</p>
+        <ul>
+            <li>Collaborated with the IT support team to provide timely and effective technical assistance to end-users, resolving hardware and software issues via phone, email, or in-person.</li>
+            <li>Assisted in troubleshooting and resolving a wide range of technical problems, including software installation, network connectivity, and system configuration.</li>
+            <li>Created and maintained detailed documentation of common technical issues and their solutions, contributing to a comprehensive knowledge base for future reference.</li>
+            <li>Conducted hardware and software inventory management, ensuring accurate tracking and timely replenishment of IT assets.</li>
+        </ul>
+    </div>
+</section>
+
+    </section>
+
+<!-- Education Section -->
+<section id="education" style="background: #fff; padding: 40px;">
+    <div class="section-title">
+        <i class="fas fa-graduation-cap"></i>
+        <h2>Education</h2>
+    </div>
+    <div class="education-details">
+        <h3>Diploma in Computer Systems Technician</h3>
+        <p>Seneca Polytechnic • Toronto, Ontario <br> May 2022 - Present (Expected Graduation: April 2024)</p>
+        <ul>
+            <li>Achieved President's Honour List for four consecutive terms, maintaining a perfect 4.0 GPA.</li>
+            <li>Acquired a thorough understanding of operating systems, networking protocols, and hardware components, with a focus on practical applications and troubleshooting.</li>
+            <li>Acquired advanced skills in server management, including setup, customization, virtualization, and backup processes, to maintain high-performance and reliable IT infrastructures.</li>
+            <li>Gained a solid understanding of database fundamentals, including SQL querying and optimization on Microsoft Azure SQL and SQL Server, with a focus on secure and efficient data management.</li>
+            <li>Developed skills in creating cloud solutions using Microsoft Azure and AWS, alongside understanding the core services, solutions, and management tools necessary for effective business support.</li>
+            <li>Acquired practical skills in open system administration, focusing on automating tasks in OS deployment, application deployment, databases, storage devices, networks, and firewalls using industry-standard tools and programming languages.</li>
+        </ul>
+    </div>
+</section>
+
+
+    </section>
+
+    <!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" style="background: #fff; padding: 40px;">
+    <div class="section-title">
+        <i class="fas fa-tools"></i>
+        <h2>Skills</h2>
+    </div>
+    <div class="skills-container">
+        <!-- Technical Skills -->
+        <div class="technical-skills">
+            <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+            <ul>
+                <li><i class="fas fa-code"></i> Programming & Scripting: Python, PowerShell, HTML</li>
+                <li><i class="fas fa-database"></i> Database Management: MySQL, MariaDB, PostgreSQL, SQL Server</li>
+                <li><i class="fas fa-cloud"></i> Cloud Platforms & Virtualization: Microsoft Azure, AWS, VMware, Oracle VM VirtualBox</li>
+                <li><i class="fas fa-network-wired"></i> Network Administration: TCP/IP, DNS, DHCP, iptables, switching, routing</li>
+                <li><i class="fas fa-user-shield"></i> Cybersecurity: Metasploit, Splunk</li>
+                <li><i class="fas fa-desktop"></i> Systems Administration: Linux/Unix, Windows Server, Active Directory</li>
+                <li><i class="fas fa-tools"></i> Technical Support & Troubleshooting</li>
+                <li><i class="fas fa-file-word"></i> Microsoft Office Suite & Teams</li>
+            </ul>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="soft-skills">
+            <h3><i class="fas fa-user-friends"></i> Soft Skills</h3>
+            <ul>
+                <li><i class="fas fa-headset"></i> Customer Service</li>
+                <li><i class="fas fa-comments"></i> Communication</li>
+                <li><i class="fas fa-lightbulb"></i> Problem-Solving and Analytical Skills</li>
+                <li><i class="fas fa-users"></i> Team Collaboration</li>
+                <li><i class="fas fa-clock"></i> Time Management</li>
+                <li><i class="fas fa-search-plus"></i> Attention to Detail</li>
+                <li><i class="fas fa-sync-alt"></i> Adaptability</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Certifications and Awards Section -->
+<section id="certifications" style="background: #fff; padding: 40px;">
+    <div class="section-title">
+        <i class="fas fa-award"></i>
+        <h2>Certifications & Awards</h2>
+    </div>
+    <ul class="certifications-list">
+        <li><i class="fas fa-network-wired"></i> Networking Basics - Cisco <a href="https://www.credly.com/badges/7eda0915-e1b1-4675-833b-5e156e2a1d84/linked_in_profile" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
+        <li><i class="fas fa-server"></i> System Administration and IT Infrastructure Services - Google <a href="https://www.coursera.org/account/accomplishments/verify/KSW4DPJU5TYB?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
+        <li><i class="fas fa-tools"></i> Technical Support Fundamentals - Google <a href="https://www.coursera.org/account/accomplishments/certificate/NJK7C8P4T6KM" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
+        <li><i class="fas fa-first-aid"></i> Standard First Aid CPR/AED Level C - Canadian Red Cross <a href="https://myrc.redcross.ca/en/ValidateCertificate/?ln=Panthi&cn=103452982" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
+        <li><i class="fas fa-medal"></i> President's Honour List - Seneca Polytechnic (Summer 2022, Fall 2022, Winter 2023, Fall 2023) <a href="https://www.linkedin.com/in/aashis-panthi-790bb4238/details/honors/" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
+    </ul>
+</section>
+
+
+    </section>
+
+    <section id="projects">
+        <!-- Projects section content will go here -->
+<!-- Projects Section -->
+<!-- Projects Section -->
+<section id="projects" style="background: #fff; padding: 40px;">
+    <div class="section-title">
+        <i class="fas fa-project-diagram"></i>
+        <h2>Projects</h2>
+    </div>
+    <div class="project-item" style="margin-bottom: 20px;">
+        <h3><i class="fas fa-envelope-open-text"></i> Secure Web Application Deployment (Roundcube Email Server Setup)</h3>
+        <p><strong>Course:</strong> OPS345, Seneca Polytechnic</p>
+        <p><strong>Objective:</strong> Implement a secure, functional web application using Apache, PHP, and Roundcube without direct guidance, showcasing skills in real-world application deployment.</p>
+        <h4>Key Achievements:</h4>
+        <ul>
+            <li><i class="fas fa-server"></i> Server and Security Configuration: Set up Apache and PHP on an email server hosted on AWS, ensuring secure access solely through HTTPS. Established a symbolic link from /var/www to /home/www for effective data storage.</li>
+            <li><i class="fas fa-database"></i> Database and User Management: Established and configured a new database within the existing ops345db instance on AWS, including setting up a user and password, to facilitate Roundcube functionality.</li>
+            <li><i class="fas fa-cogs"></i> Web Application Setup: Installed the latest complete package of Roundcube, customizing the setup for the server's specific environment and ensuring direct access through a custom URL.</li>
+            <li><i class="fas fa-shield-alt"></i> Security and Testing: Boosted system security by modifying Roundcube's configuration to block encryption for SMTP server connections on localhost and removed the installer directory after thorough testing.</li>
+            <li><i class="fas fa-clipboard-list"></i> Documentation and Analysis: Carefully documented the setup process and troubleshooting steps, including screenshots, to demonstrate the successful implementation and secure email function.</li>
+        </ul>
+    </div>
+    <!-- Additional projects can follow a similar structure -->
+</section>
+
+    </section>
+
+    <!-- Footer will be added here -->
+<!-- Footer Section -->
+<footer style="background-color: #333; color: white; text-align: center; padding: 20px; width: 100%;">
+    <div>
+        <p>&copy; 2024 Aashis Panthi. All Rights Reserved.</p>
+        <p>Connect with me on: 
+            <a href="https://www.linkedin.com/in/AashisPanthi" target="_blank" style="color: white;"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+            <a href="https://github.com/YourGitHubUsername" target="_blank" style="color: white;"><i class="fab fa-github"></i> GitHub</a>
+        </p>
+    </div>
+</footer>
+
+
+</body>
+</html>
